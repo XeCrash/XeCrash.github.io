@@ -18,7 +18,7 @@ export { HeroDark as Dark };
  **************************************************************
   Add your GitHub username (string - "YourUsername") below.
 */
-export const githubUsername = "Your GitHub username here";
+export const githubUsername = "XeCrash";
 
 // Navbar Logo image
 export const navLogo = undefined;
@@ -31,7 +31,7 @@ export const Blog = <Icon icon="ph:link-bold" />;
   Add a second paragraph for the about me section.
 */
 export const moreInfo =
-  "I enjoy learning about technology and helping others use it to improve their lives and be more productive. I built this site with React, React Bootstrap, Redux, and the GitHub REST API.";
+  "I enjoy learning about technology and helping others use it to improve their lives and be more productive. I've taught myself how to program in C#, php, html, and MySQL for backend databases. This github overview of me is a template but its the only way to get github to play nice, the iframe tag isn't possible for some reason";
 
 /* Skills
  ************************************************************** 
@@ -50,28 +50,28 @@ export const skillData = [
   },
   {
     id: 3,
-    skill: <Icon icon="fa6-brands:js" className="display-4" />,
-    name: "JavaScript",
-  },
-  {
-    id: 4,
-    skill: <Icon icon="ri:bootstrap-fill" className="display-4" />,
-    name: "BootStrap",
-  },
+      skill: <Icon icon="teenyicons:c-sharp-solid" className="display-4" />,
+    name: "C#",
+    },
+    {
+        id: 3,
+        skill: <Icon icon="mdi:language-php" className="display-4" />,
+        name: "PHP",
+    },
   {
     id: 5,
-    skill: <Icon icon="mdi:react" className="display-4" />,
-    name: "React",
+      skill: <Icon icon="cib:mysql" className="display-4" />,
+    name: "MySQL",
   },
   {
     id: 6,
-    skill: <Icon icon="file-icons:styledcomponents" className="display-4" />,
-    name: "Styled Components",
+      skill: <Icon icon="fontisto:python" className="display-4" />,
+    name: "Python",
   },
   {
     id: 7,
-    skill: <Icon icon="akar-icons:redux-fill" className="display-4" />,
-    name: "Redux",
+    skill: <Icon icon="file-icons:styledcomponents" className="display-4" />,
+    name: "Styled Components",
   },
   {
     id: 8,
@@ -92,7 +92,7 @@ export const resume = null;
  ************************************************************** 
   List the repo names (string - "your-repo-name") you want to include (they will be sorted alphabetically). If empty, only the first 3 will be included.
 */
-export const filteredProjects = ["example-1", "example-2", "example-3"];
+export const filteredProjects = ["NETLock", "Fallout-4-Backup-Creator", "example-3"];
 
 // Replace the defualt GitHub image for matching repos below (images imported above - lines 7-8)
 export const projectCardImages = [
@@ -107,4 +107,4 @@ export const projectCardImages = [
   Add your formspree endpoint below.
   https://formspree.io/
 */
-export const formspreeUrl = "https://formspree.io/f/YourEndpoint";
+export const formspreeUrl = "https://formspree.io/f/xjvqdpwp";
